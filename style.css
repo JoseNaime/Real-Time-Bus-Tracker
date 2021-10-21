@@ -1,0 +1,72 @@
+body {
+	font-family: Avenir, "serif-serif";
+	background-color : gray;
+	margin           : 0;
+	padding          : 0;
+}
+
+#map {
+	position : absolute;
+	top      : 0;
+	bottom   : 0;
+	width    : 100%;
+}
+
+.map-overlay {
+	position : absolute;
+	left     : 0;
+	padding  : 10px;
+}
+
+aside {
+	position         : relative;
+	margin           : 0;
+	width            : 250px;
+	height           : 100vh;
+	background-color : white;
+	text-align : center;
+	transition: all 1s;
+}
+
+h1{
+	margin : 0;
+}
+
+aside img{
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	background-color : white;
+	padding: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transition: all 1s;
+}
+
+aside > div{
+	height: auto;
+	padding: 3rem;
+}
+
+aside.show{
+	transform: translateX(0);
+}
+
+aside.show > img{
+	transform: translate(50%,-50%) rotate(180deg) ;
+}
+
+aside.hidden{
+	transform: translateX(-100%);
+}
+
+aside.hidden > img{
+	transform: translate(100%,-50%);
+}
+
+#routes-list{
+	padding: 0;
+	list-style-type: none;
+	margin-top: 100px;
+}
+
