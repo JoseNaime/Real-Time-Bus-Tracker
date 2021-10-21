@@ -4,7 +4,7 @@ This project helps you to follow the track of one of the busses passing through 
 ## How to run it?
 You need to fork and download the project in your local machine, drag and drop the index.html file into the browser, and you'll see something like this...
 
-https://user-images.githubusercontent.com/34799483/138213770-72771415-986e-4b4b-ac4c-20e05cbeb239.mov
+[![Real Time Bus Tracker](https://i9.ytimg.com/vi/JiDMtfHRkzI/mq2.jpg?sqp=CPiOxosG&rs=AOn4CLCcitCFZePQd1gt0kXJ8kj7JVIoog)](https://youtu.be/JiDMtfHRkzI "Real Time Bus Tracker")
 
 ## Roadmap
 > V1.1 (WIP)
