@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Real Time Bus Tracker</title>
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
-    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="map"></div>
 
-    <div class="map-overlay top">
+<div id="map"></div>
+
+<div class="map-overlay top">
+</div>
+<aside id="menu" class="hidden">
+    <div id="github" onclick="window.location = 'https://github.com/JoseNaime/Real-Time-Bus-Tracker'">
+        <img src="github.svg" width="35" height="35" alt="Jose Naime Real Time Bus Tracker Github">
     </div>
-    <aside id="menu" class="hidden">
-        <img  src="./assets/keyboard-arrow-right-24px.svg" onclick="handleToggleAsideClick()">
-        <div>
-            <h1>Bus Routes</h1>
-            <hr/>
-            <ul id="routes-list">
-                <li class="route"><p>Loading...</p></li>
-            </ul>
-        </div>
-    </aside>
+    <img src="./assets/keyboard-arrow-right-24px.svg" onclick="handleToggleAsideClick()">
+    <div>
+        <h1>Bus Routes</h1>
+        <hr/>
+        <ul id="routes-list">
+            <li class="route"><p>Loading...</p></li>
+        </ul>
+    </div>
+</aside>
 <script rel="text/javascript" type="text/javascript" src="index.js"></script>
 </body>
 </html>
