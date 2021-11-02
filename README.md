@@ -9,6 +9,7 @@ This project helps you to follow the track of one of the busses passing through 
 You need to fork and download the project in your local machine, drag and drop the index.html file into the browser, and you'll see something like this...
 
 [![Real Time Bus Tracker](http://i3.ytimg.com/vi/JiDMtfHRkzI/maxresdefault.jpg)](https://youtu.be/JiDMtfHRkzI "Real Time Bus Tracker")
+**Click the image to watch video**
 
 ## Roadmap
 > V1.1 (WIP)
